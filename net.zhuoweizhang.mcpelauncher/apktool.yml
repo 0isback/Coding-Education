@@ -1,0 +1,26 @@
+version: 2.11.1
+apkFileName: net.zhuoweizhang.mcpelauncher.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 9
+  targetSdkVersion: 22
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 97
+  versionName: 1.12.1
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- png
+- assets/shaders/flat_white.fragment
+- assets/shaders/uv_as_color.fragment
+- assets/sounds/sounds.json
+- assets/splashes.json

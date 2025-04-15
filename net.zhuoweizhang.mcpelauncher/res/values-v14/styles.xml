@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FullscreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="switchStyle">@style/switch_light</item>
+    </style>
+    <style name="FullscreenDarkTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="switchStyle">@style/switch_dark</item>
+    </style>
+    <style name="BlockLauncherTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="switchStyle">@style/switch_light</item>
+    </style>
+    <style name="BlockLauncherDarkTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="switchStyle">@style/switch_dark</item>
+    </style>
+</resources>
